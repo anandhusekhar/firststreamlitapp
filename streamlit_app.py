@@ -5,7 +5,7 @@ streamlit.title('hello')
 streamlit.header('Hi, Noobie 🐔')
 streamlit.text('🥣Welcome to the world of programming')
 df=pd.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
-streamlit.multiselect("pick some fruits:", list(df.index),['Avacado','straberries'])
+# streamlit.multiselect("pick some fruits:", list(df.index),['Avacado','straberries'])
 streamlit.dataframe(df)
 
 
